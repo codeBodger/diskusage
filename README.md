@@ -1,11 +1,9 @@
 # Building and apk finding instructions:
 - Edit `android.defaultConfig.versionName` in `app/build.gradle`
 - From a file in the root directory:
-  - do Build > Select Build Variant... and select the appropriate one (debug/release)
+  - do Build > Select Build Variant... and select debug (release doesn't work for some reason)
   - then do Build > Build App Bundle(s) / APK(s) > Build APK(s)
-- Find the built file in:
-  - `app/build/outputs/apk/debug/diskusage-vX.X-XX-debug.apk`
-  - or `app/build/outputs/apk/release/diskusage-vX.X-release.apk`
+- Find the built file in `app/build/outputs/apk/debug/diskusage-vX.X-XX-debug.apk`
 
 DiskUsage
 =========
