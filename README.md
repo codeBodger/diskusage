@@ -1,8 +1,8 @@
+# From a file in the root directory, do Build > Build App Bundle(s) / APK(s) > Build APK(s)
+# Then look at something like app/build/outputs/apk/debug/diskusage-vX.X-XX-debug.apk
+
 DiskUsage
 =========
-
-For a better maintained version of this project have a look at:
-https://github.com/WhiredPlanck/diskusage
 
 DiskUsage app for Android
 
