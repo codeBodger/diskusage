@@ -11,6 +11,7 @@ android {
         applicationId "com.google.android.diskusage"
         targetSdkVersion 33
         minSdk 21
+        versionName "5.1-alpha0"
     }
     buildFeatures {
         buildConfig true
